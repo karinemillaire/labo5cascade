@@ -154,29 +154,30 @@ header .wrapper {
 
 /* ===== Numéro 6a ===== */
 footer {
+  background-color: #000;
 }
 
 footer .wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 30px;
 }
 
 /* ===== Numéro 6b ===== */
-/*
-.menu-social {
-    margin-top: 0;
-    margin-left: 0;
-    margin-bottom: 0;
-    margin-right: 0;
 
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
+.menu-social {
+  margin: 0;
+  padding: 0;
 }
-*/
 
 /* ===== Numéro 6c ===== */
 
 footer .wrapper .menu-social a {
+  color: #fff;
+  background-color: #f2545b;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
 }
 
 /* ===== Numéro 6d ===== */
