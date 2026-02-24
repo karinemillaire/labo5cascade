@@ -166,23 +166,29 @@ footer .wrapper {
 /* ===== Numéro 6b ===== */
 
 .menu-social {
+  display: flex;
   margin: 0;
   padding: 0;
+  gap: 10px;
+  list-style: none;
 }
 
 /* ===== Numéro 6c ===== */
 
-footer .wrapper .menu-social a {
+.menu-social a {
   color: #fff;
   background-color: #f2545b;
   width: 40px;
   height: 40px;
   border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
 /* ===== Numéro 6d ===== */
-/*
+
 .menu-social a:hover {
-    background: gray;
+  background: gray;
 }
-*/
