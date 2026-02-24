@@ -40,7 +40,8 @@ body {
 header .wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; 
+  padding: 20px 0px;
 }
 
 /* ===== Numéro 3b ===== */
@@ -76,6 +77,7 @@ header .wrapper {
   padding: 5px 10px;
   /*propriété non raccourcis*/
   text-decoration: none;
+  border: transparent solid 2px;
 }
 
 /* ===== Numéro 3e ===== */
@@ -85,14 +87,10 @@ header .wrapper {
 }
 
 /* ===== Numéro 3f ===== */
-/*
+
 header {
-    padding-top: 20px;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 20px;
+ 
 }
-*/
 
 /* ===== Numéro 4a ===== */
 /*
