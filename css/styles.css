@@ -113,42 +113,32 @@ header .wrapper {
   margin: 0 0 20px;
   color: #f2545b;
 }
+/* ===== Numéro 5c ===== */
+
+.athletes {
+  padding: 100px 0;
+}
 
 /* ===== Numéro 5a ===== */
-/*
+
 .athletes h2 {
-    font-family: Nunito, sans-serif;
-    font-weight: bold;
-    font-size: 3.125rem;
-    margin-top: 0;
-    margin-bottom: 50px;
-    margin-left: 0;
-    margin-right: 0;
+  font:
+    bold 3.125rem/0.05em Nunito,
+    sans-serif;
+  margin: 0 0 50px;
 }
-*/
 
 /* ===== Numéro 5b ===== */
-/*
-.athletes p {
-    margin-right: 0;
-    margin-bottom: 50px;
-    margin-top: 0;
-    margin-left: 0;
-}
-*/
 
-/* ===== Numéro 5c ===== */
-/*
-.athletes {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 0;
-    padding-right: 0;
+.athletes p {
+  margin: 0 0 50px;
 }
-*/
 
 /* ===== Numéro 5d ===== */
 .athletes-photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
 }
 
 /* ===== Numéro 5e ===== */
